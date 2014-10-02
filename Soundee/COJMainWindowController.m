@@ -10,7 +10,6 @@
 
 #import "COJMainWindowController.h"
 #import "COJNavigationStack.h"
-#import "COJLoginWindowController.h"
 
 #import "COJSoundCloudUrlHelper.h"
 
@@ -24,7 +23,6 @@
 @implementation COJMainWindowController {
     COJAudioPlayer *_audioPlayer;
     COJNavigationStack *_navigationStack;
-    COJLoginWindowController *_loginWindowController;
     id _currentRequestID;
 }
 
