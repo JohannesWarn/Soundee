@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F1932CB19191B48000CA8A4 /* COJImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1932CA19191B48000CA8A4 /* COJImageView.m */; };
+		8F1932CF19192DB9000CA8A4 /* COJTrackTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1932CE19192DB9000CA8A4 /* COJTrackTableCellView.m */; };
+		8F4322781917A236007FE316 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4322771917A236007FE316 /* Cocoa.framework */; };
+		8F4322821917A236007FE316 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F4322801917A236007FE316 /* InfoPlist.strings */; };
+		8F4322841917A236007FE316 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4322831917A236007FE316 /* main.m */; };
+		8F4322881917A237007FE316 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8F4322861917A237007FE316 /* Credits.rtf */; };
+		8F43228B1917A237007FE316 /* COJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F43228A1917A237007FE316 /* COJAppDelegate.m */; };
+		8F43228E1917A237007FE316 /* COJMainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F43228C1917A237007FE316 /* COJMainMenu.xib */; };
+		8F4322901917A237007FE316 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F43228F1917A237007FE316 /* Images.xcassets */; };
+		8F4322981917A237007FE316 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4322771917A236007FE316 /* Cocoa.framework */; };
+		8F4322A01917A237007FE316 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F43229E1917A237007FE316 /* InfoPlist.strings */; };
+		8F4322A21917A237007FE316 /* SoundeeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4322A11917A237007FE316 /* SoundeeTests.m */; };
+		8F4322AD1917A2A5007FE316 /* COJMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4322AC1917A2A5007FE316 /* COJMainWindowController.m */; };
+		8F4322AF1917A31A007FE316 /* COJMainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F4322AE1917A31A007FE316 /* COJMainWindow.xib */; };
+		8F72E21219DD613100030794 /* COJGroupTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F72E21119DD613100030794 /* COJGroupTableCellView.m */; };
+		8F72E21819DD68EE00030794 /* COJNavigationStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F72E21719DD68EE00030794 /* COJNavigationStack.m */; };
+		8F72E23119DD792F00030794 /* OAuth2Client.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F72E22D19DD790300030794 /* OAuth2Client.framework */; };
+		8F72E23219DD792F00030794 /* OAuth2Client.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8F72E22D19DD790300030794 /* OAuth2Client.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8F72E23319DD792F00030794 /* SoundCloudAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F72E22E19DD790300030794 /* SoundCloudAPI.framework */; };
+		8F72E23419DD792F00030794 /* SoundCloudAPI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8F72E22E19DD790300030794 /* SoundCloudAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8F72E23819DD877000030794 /* COJSoundCloudKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F72E23719DD877000030794 /* COJSoundCloudKeys.m */; };
+		8FACAA691919492A003200F6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FACAA681919492A003200F6 /* AVFoundation.framework */; };
+		8FB85DB2191B9D0200DEC35B /* COJTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB85DB1191B9D0200DEC35B /* COJTableView.m */; };
+		8FB85DB6191BA4AE00DEC35B /* COJArtistTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB85DB5191BA4AE00DEC35B /* COJArtistTableCellView.m */; };
+		8FB85DB9191BAA3500DEC35B /* COJPlaylistTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB85DB8191BAA3500DEC35B /* COJPlaylistTableCellView.m */; };
+		8FB85DC2191BE34700DEC35B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 8FB85DBB191BE34700DEC35B /* LICENSE */; };
+		8FB85DC3191BE34700DEC35B /* NSObject+SPInvocationGrabbing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB85DBE191BE34700DEC35B /* NSObject+SPInvocationGrabbing.m */; };
+		8FB85DC4191BE34700DEC35B /* SPMediaKeyTap.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB85DC0191BE34700DEC35B /* SPMediaKeyTap.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8FB85DC9191D0C2200DEC35B /* COJLoginWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB85DC7191D0C2200DEC35B /* COJLoginWindowController.m */; };
+		8FB85DCA191D0C2200DEC35B /* COJLoginWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB85DC8191D0C2200DEC35B /* COJLoginWindow.xib */; };
+		8FE139C61918FC4500BE5958 /* COJAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE139C51918FC4500BE5958 /* COJAudioPlayer.m */; };
+		8FE139C8191900E300BE5958 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE139C7191900E300BE5958 /* WebKit.framework */; };
+		8FE139CB19190E4900BE5958 /* COJSoundCloudUrlHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE139CA19190E4900BE5958 /* COJSoundCloudUrlHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F4322991917A237007FE316 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F43226C1917A236007FE316 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F4322731917A236007FE316;
+			remoteInfo = Soundee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8F72E23519DD792F00030794 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8F72E23219DD792F00030794 /* OAuth2Client.framework in Embed Frameworks */,
+				8F72E23419DD792F00030794 /* SoundCloudAPI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8F1932C919191B48000CA8A4 /* COJImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COJImageView.h; sourceTree = "<group>"; };
+		8F1932CA19191B48000CA8A4 /* COJImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COJImageView.m; sourceTree = "<group>"; };
+		8F1932CD19192DB9000CA8A4 /* COJTrackTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COJTrackTableCellView.h; sourceTree = "<group>"; };
+		8F1932CE19192DB9000CA8A4 /* COJTrackTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COJTrackTableCellView.m; sourceTree = "<group>"; };
+		8F4322741917A236007FE316 /* Soundee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4322771917A236007FE316 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8F43227A1917A236007FE316 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8F43227B1917A236007FE316 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8F43227C1917A236007FE316 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8F43227F1917A236007FE316 /* Soundee-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Soundee-Info.plist"; sourceTree = "<group>"; };
+		8F4322811917A236007FE316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F4322831917A236007FE316 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F4322851917A236007FE316 /* Soundee-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Soundee-Prefix.pch"; sourceTree = "<group>"; };
+		8F4322871917A237007FE316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		8F4322891917A237007FE316 /* COJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = COJAppDelegate.h; sourceTree = "<group>"; };
+		8F43228A1917A237007FE316 /* COJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COJAppDelegate.m; sourceTree = "<group>"; };
+		8F43228D1917A237007FE316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/COJMainMenu.xib; sourceTree = "<group>"; };
+		8F43228F1917A237007FE316 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8F4322951917A237007FE316 /* SoundeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F43229D1917A237007FE316 /* SoundeeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoundeeTests-Info.plist"; sourceTree = "<group>"; };
+		8F43229F1917A237007FE316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F4322A11917A237007FE316 /* SoundeeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundeeTests.m; sourceTree = "<group>"; };
+		8F4322AB1917A2A5007FE316 /* COJMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COJMainWindowController.h; sourceTree = "<group>"; };
+		8F4322AC1917A2A5007FE316 /* COJMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COJMainWindowController.m; sourceTree = "<group>"; };
+		8F4322AE1917A31A007FE316 /* COJMainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = COJMainWindow.xib; sourceTree = "<group>"; };
+		8F72E21019DD613100030794 /* COJGroupTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COJGroupTableCellView.h; sourceTree = "<group>"; };
+		8F72E21119DD613100030794 /* COJGroupTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COJGroupTableCellView.m; sourceTree = "<group>"; };
+		8F72E21619DD68EE00030794 /* COJNavigationStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COJNavigationStack.h; sourceTree = "<group>"; };
+		8F72E21719DD68EE00030794 /* COJNavigationStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COJNavigationStack.m; sourceTree = "<group>"; };
+		8F72E22D19DD790300030794 /* OAuth2Client.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuth2Client.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Soundee-cnptwwvakcxgandguenzyonosvra/Build/Products/Debug/OAuth2Client.framework"; sourceTree = "<group>"; };
+		8F72E22E19DD790300030794 /* SoundCloudAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SoundCloudAPI.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Soundee-cnptwwvakcxgandguenzyonosvra/Build/Products/Debug/SoundCloudAPI.framework"; sourceTree = "<group>"; };
+		8F72E23619DD877000030794 /* COJSoundCloudKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COJSoundCloudKeys.h; sourceTree = "<group>"; };
+		8F72E23719DD877000030794 /* COJSoundCloudKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COJSoundCloudKeys.m; sourceTree = "<group>"; };
+		8FACAA681919492A003200F6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8FB85DB0191B9D0100DEC35B /* COJTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COJTableView.h; sourceTree = "<group>"; };
+		8FB85DB1191B9D0200DEC35B /* COJTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COJTableView.m; sourceTree = "<group>"; };
+		8FB85DB4191BA4AE00DEC35B /* COJArtistTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COJArtistTableCellView.h; sourceTree = "<group>"; };
+		8FB85DB5191BA4AE00DEC35B /* COJArtistTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COJArtistTableCellView.m; sourceTree = "<group>"; };
+		8FB85DB7191BAA3500DEC35B /* COJPlaylistTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COJPlaylistTableCellView.h; sourceTree = "<group>"; };
+		8FB85DB8191BAA3500DEC35B /* COJPlaylistTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COJPlaylistTableCellView.m; sourceTree = "<group>"; };
+		8FB85DBB191BE34700DEC35B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8FB85DBD191BE34700DEC35B /* NSObject+SPInvocationGrabbing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SPInvocationGrabbing.h"; sourceTree = "<group>"; };
+		8FB85DBE191BE34700DEC35B /* NSObject+SPInvocationGrabbing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SPInvocationGrabbing.m"; sourceTree = "<group>"; };
+		8FB85DBF191BE34700DEC35B /* SPMediaKeyTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMediaKeyTap.h; sourceTree = "<group>"; };
+		8FB85DC0191BE34700DEC35B /* SPMediaKeyTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPMediaKeyTap.m; sourceTree = "<group>"; };
+		8FB85DC6191D0C2200DEC35B /* COJLoginWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COJLoginWindowController.h; sourceTree = "<group>"; };
+		8FB85DC7191D0C2200DEC35B /* COJLoginWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COJLoginWindowController.m; sourceTree = "<group>"; };
+		8FB85DC8191D0C2200DEC35B /* COJLoginWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = COJLoginWindow.xib; sourceTree = "<group>"; };
+		8FE139C41918FC4500BE5958 /* COJAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COJAudioPlayer.h; sourceTree = "<group>"; };
+		8FE139C51918FC4500BE5958 /* COJAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COJAudioPlayer.m; sourceTree = "<group>"; };
+		8FE139C7191900E300BE5958 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		8FE139C919190E4900BE5958 /* COJSoundCloudUrlHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COJSoundCloudUrlHelper.h; sourceTree = "<group>"; };
+		8FE139CA19190E4900BE5958 /* COJSoundCloudUrlHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COJSoundCloudUrlHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F4322711917A236007FE316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F72E23319DD792F00030794 /* SoundCloudAPI.framework in Frameworks */,
+				8F72E23119DD792F00030794 /* OAuth2Client.framework in Frameworks */,
+				8FACAA691919492A003200F6 /* AVFoundation.framework in Frameworks */,
+				8FE139C8191900E300BE5958 /* WebKit.framework in Frameworks */,
+				8F4322781917A236007FE316 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F4322921917A237007FE316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4322981917A237007FE316 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F43226B1917A236007FE316 = {
+			isa = PBXGroup;
+			children = (
+				8F43227D1917A236007FE316 /* Soundee */,
+				8FB85DBA191BE34700DEC35B /* SPMediaKeyTap */,
+				8F43229B1917A237007FE316 /* SoundeeTests */,
+				8F4322761917A236007FE316 /* Frameworks */,
+				8F4322751917A236007FE316 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F4322751917A236007FE316 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F4322741917A236007FE316 /* Soundee.app */,
+				8F4322951917A237007FE316 /* SoundeeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F4322761917A236007FE316 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F72E22D19DD790300030794 /* OAuth2Client.framework */,
+				8F72E22E19DD790300030794 /* SoundCloudAPI.framework */,
+				8FACAA681919492A003200F6 /* AVFoundation.framework */,
+				8FE139C7191900E300BE5958 /* WebKit.framework */,
+				8F4322771917A236007FE316 /* Cocoa.framework */,
+				8F4322791917A236007FE316 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F4322791917A236007FE316 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F43227A1917A236007FE316 /* AppKit.framework */,
+				8F43227B1917A236007FE316 /* CoreData.framework */,
+				8F43227C1917A236007FE316 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8F43227D1917A236007FE316 /* Soundee */ = {
+			isa = PBXGroup;
+			children = (
+				8F4E6EB91918450D004BB346 /* Classes */,
+				8F4E6EB8191844FC004BB346 /* Nibs */,
+				8F43227E1917A236007FE316 /* Supporting Files */,
+			);
+			path = Soundee;
+			sourceTree = "<group>";
+		};
+		8F43227E1917A236007FE316 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F43228F1917A237007FE316 /* Images.xcassets */,
+				8F43227F1917A236007FE316 /* Soundee-Info.plist */,
+				8F4322801917A236007FE316 /* InfoPlist.strings */,
+				8F4322831917A236007FE316 /* main.m */,
+				8F4322851917A236007FE316 /* Soundee-Prefix.pch */,
+				8F4322861917A237007FE316 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F43229B1917A237007FE316 /* SoundeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F4322A11917A237007FE316 /* SoundeeTests.m */,
+				8F43229C1917A237007FE316 /* Supporting Files */,
+			);
+			path = SoundeeTests;
+			sourceTree = "<group>";
+		};
+		8F43229C1917A237007FE316 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F43229D1917A237007FE316 /* SoundeeTests-Info.plist */,
+				8F43229E1917A237007FE316 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F4E6EB8191844FC004BB346 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				8F43228C1917A237007FE316 /* COJMainMenu.xib */,
+				8F4322AE1917A31A007FE316 /* COJMainWindow.xib */,
+				8FB85DC8191D0C2200DEC35B /* COJLoginWindow.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		8F4E6EB91918450D004BB346 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8F4322891917A237007FE316 /* COJAppDelegate.h */,
+				8F43228A1917A237007FE316 /* COJAppDelegate.m */,
+				8F72E21619DD68EE00030794 /* COJNavigationStack.h */,
+				8F72E21719DD68EE00030794 /* COJNavigationStack.m */,
+				8F4322AB1917A2A5007FE316 /* COJMainWindowController.h */,
+				8F4322AC1917A2A5007FE316 /* COJMainWindowController.m */,
+				8FB85DC6191D0C2200DEC35B /* COJLoginWindowController.h */,
+				8FB85DC7191D0C2200DEC35B /* COJLoginWindowController.m */,
+				8FB85DB0191B9D0100DEC35B /* COJTableView.h */,
+				8FB85DB1191B9D0200DEC35B /* COJTableView.m */,
+				8FB85DB3191BA48700DEC35B /* TableCellViews */,
+				8F1932C919191B48000CA8A4 /* COJImageView.h */,
+				8F1932CA19191B48000CA8A4 /* COJImageView.m */,
+				8FE139C41918FC4500BE5958 /* COJAudioPlayer.h */,
+				8FE139C51918FC4500BE5958 /* COJAudioPlayer.m */,
+				8FE139C919190E4900BE5958 /* COJSoundCloudUrlHelper.h */,
+				8FE139CA19190E4900BE5958 /* COJSoundCloudUrlHelper.m */,
+				8F72E23619DD877000030794 /* COJSoundCloudKeys.h */,
+				8F72E23719DD877000030794 /* COJSoundCloudKeys.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		8FB85DB3191BA48700DEC35B /* TableCellViews */ = {
+			isa = PBXGroup;
+			children = (
+				8F1932CD19192DB9000CA8A4 /* COJTrackTableCellView.h */,
+				8F1932CE19192DB9000CA8A4 /* COJTrackTableCellView.m */,
+				8FB85DB4191BA4AE00DEC35B /* COJArtistTableCellView.h */,
+				8FB85DB5191BA4AE00DEC35B /* COJArtistTableCellView.m */,
+				8FB85DB7191BAA3500DEC35B /* COJPlaylistTableCellView.h */,
+				8FB85DB8191BAA3500DEC35B /* COJPlaylistTableCellView.m */,
+				8F72E21019DD613100030794 /* COJGroupTableCellView.h */,
+				8F72E21119DD613100030794 /* COJGroupTableCellView.m */,
+			);
+			name = TableCellViews;
+			sourceTree = "<group>";
+		};
+		8FB85DBA191BE34700DEC35B /* SPMediaKeyTap */ = {
+			isa = PBXGroup;
+			children = (
+				8FB85DBB191BE34700DEC35B /* LICENSE */,
+				8FB85DBC191BE34700DEC35B /* SPInvocationGrabbing */,
+				8FB85DBF191BE34700DEC35B /* SPMediaKeyTap.h */,
+				8FB85DC0191BE34700DEC35B /* SPMediaKeyTap.m */,
+			);
+			path = SPMediaKeyTap;
+			sourceTree = "<group>";
+		};
+		8FB85DBC191BE34700DEC35B /* SPInvocationGrabbing */ = {
+			isa = PBXGroup;
+			children = (
+				8FB85DBD191BE34700DEC35B /* NSObject+SPInvocationGrabbing.h */,
+				8FB85DBE191BE34700DEC35B /* NSObject+SPInvocationGrabbing.m */,
+			);
+			path = SPInvocationGrabbing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F4322731917A236007FE316 /* Soundee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F4322A51917A237007FE316 /* Build configuration list for PBXNativeTarget "Soundee" */;
+			buildPhases = (
+				8F4322701917A236007FE316 /* Sources */,
+				8F4322711917A236007FE316 /* Frameworks */,
+				8F4322721917A236007FE316 /* Resources */,
+				8F72E23519DD792F00030794 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Soundee;
+			productName = Soundee;
+			productReference = 8F4322741917A236007FE316 /* Soundee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F4322941917A237007FE316 /* SoundeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F4322A81917A237007FE316 /* Build configuration list for PBXNativeTarget "SoundeeTests" */;
+			buildPhases = (
+				8F4322911917A237007FE316 /* Sources */,
+				8F4322921917A237007FE316 /* Frameworks */,
+				8F4322931917A237007FE316 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F43229A1917A237007FE316 /* PBXTargetDependency */,
+			);
+			name = SoundeeTests;
+			productName = SoundeeTests;
+			productReference = 8F4322951917A237007FE316 /* SoundeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F43226C1917A236007FE316 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = COJ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Johannes Wärn";
+				TargetAttributes = {
+					8F4322941917A237007FE316 = {
+						TestTargetID = 8F4322731917A236007FE316;
+					};
+				};
+			};
+			buildConfigurationList = 8F43226F1917A236007FE316 /* Build configuration list for PBXProject "Soundee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F43226B1917A236007FE316;
+			productRefGroup = 8F4322751917A236007FE316 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F4322731917A236007FE316 /* Soundee */,
+				8F4322941917A237007FE316 /* SoundeeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F4322721917A236007FE316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB85DC2191BE34700DEC35B /* LICENSE in Resources */,
+				8FB85DCA191D0C2200DEC35B /* COJLoginWindow.xib in Resources */,
+				8F4322821917A236007FE316 /* InfoPlist.strings in Resources */,
+				8F4322AF1917A31A007FE316 /* COJMainWindow.xib in Resources */,
+				8F4322901917A237007FE316 /* Images.xcassets in Resources */,
+				8F4322881917A237007FE316 /* Credits.rtf in Resources */,
+				8F43228E1917A237007FE316 /* COJMainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F4322931917A237007FE316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4322A01917A237007FE316 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F4322701917A236007FE316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB85DB2191B9D0200DEC35B /* COJTableView.m in Sources */,
+				8F4322841917A236007FE316 /* main.m in Sources */,
+				8FB85DC9191D0C2200DEC35B /* COJLoginWindowController.m in Sources */,
+				8FB85DB6191BA4AE00DEC35B /* COJArtistTableCellView.m in Sources */,
+				8F72E21219DD613100030794 /* COJGroupTableCellView.m in Sources */,
+				8F43228B1917A237007FE316 /* COJAppDelegate.m in Sources */,
+				8F72E23819DD877000030794 /* COJSoundCloudKeys.m in Sources */,
+				8FE139C61918FC4500BE5958 /* COJAudioPlayer.m in Sources */,
+				8FE139CB19190E4900BE5958 /* COJSoundCloudUrlHelper.m in Sources */,
+				8FB85DB9191BAA3500DEC35B /* COJPlaylistTableCellView.m in Sources */,
+				8FB85DC4191BE34700DEC35B /* SPMediaKeyTap.m in Sources */,
+				8F72E21819DD68EE00030794 /* COJNavigationStack.m in Sources */,
+				8F1932CB19191B48000CA8A4 /* COJImageView.m in Sources */,
+				8F1932CF19192DB9000CA8A4 /* COJTrackTableCellView.m in Sources */,
+				8FB85DC3191BE34700DEC35B /* NSObject+SPInvocationGrabbing.m in Sources */,
+				8F4322AD1917A2A5007FE316 /* COJMainWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F4322911917A237007FE316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4322A21917A237007FE316 /* SoundeeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F43229A1917A237007FE316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F4322731917A236007FE316 /* Soundee */;
+			targetProxy = 8F4322991917A237007FE316 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F4322801917A236007FE316 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F4322811917A236007FE316 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8F4322861917A237007FE316 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F4322871917A237007FE316 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		8F43228C1917A237007FE316 /* COJMainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F43228D1917A237007FE316 /* Base */,
+			);
+			name = COJMainMenu.xib;
+			sourceTree = "<group>";
+		};
+		8F43229E1917A237007FE316 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F43229F1917A237007FE316 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F4322A31917A237007FE316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8F4322A41917A237007FE316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8F4322A61917A237007FE316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Soundee-erutmwolhopkrgewztnzuifjgrzl/Build/Products/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Soundee-cnptwwvakcxgandguenzyonosvra/Build/Products/Debug",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Soundee/Soundee-Prefix.pch";
+				INFOPLIST_FILE = "Soundee/Soundee-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OAuth2Client/build/Debug-iphoneos",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8F4322A71917A237007FE316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Soundee-erutmwolhopkrgewztnzuifjgrzl/Build/Products/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Soundee-cnptwwvakcxgandguenzyonosvra/Build/Products/Debug",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Soundee/Soundee-Prefix.pch";
+				INFOPLIST_FILE = "Soundee/Soundee-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OAuth2Client/build/Debug-iphoneos",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8F4322A91917A237007FE316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Soundee.app/Contents/MacOS/Soundee";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Soundee/Soundee-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SoundeeTests/SoundeeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8F4322AA1917A237007FE316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Soundee.app/Contents/MacOS/Soundee";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Soundee/Soundee-Prefix.pch";
+				INFOPLIST_FILE = "SoundeeTests/SoundeeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F43226F1917A236007FE316 /* Build configuration list for PBXProject "Soundee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F4322A31917A237007FE316 /* Debug */,
+				8F4322A41917A237007FE316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F4322A51917A237007FE316 /* Build configuration list for PBXNativeTarget "Soundee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F4322A61917A237007FE316 /* Debug */,
+				8F4322A71917A237007FE316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F4322A81917A237007FE316 /* Build configuration list for PBXNativeTarget "SoundeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F4322A91917A237007FE316 /* Debug */,
+				8F4322AA1917A237007FE316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F43226C1917A236007FE316 /* Project object */;
+}
